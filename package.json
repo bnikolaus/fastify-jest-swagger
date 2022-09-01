@@ -1,0 +1,16 @@
+{
+  "name": "fastify-with-jest-async",
+  "version": "0.0.0",
+  "description": "Fastify with Jest and Swagger",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "fastify": "^3.21.5"
+  },
+  "devDependencies": {
+    "jest": "^27.2.1",
+    "prettier": "^2.4.1"
+  }
+}
