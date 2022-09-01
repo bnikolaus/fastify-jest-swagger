@@ -12,5 +12,6 @@ describe('GET /', () => {
     const payload = response.json()
     expect(payload).toHaveProperty('hello')
     expect(payload.hello).not.toBeNull()
+
   })
 })
